@@ -23,28 +23,32 @@
 }
 
 /* Positioning Classes */
-
 .milk_text {
-  padding-top: 30px;
+  padding-top: 18px;
 }
 
-.column {
-  display: inline-block;
-  padding: 6px;
+#details .border_right {
   width: 33%;
-  overflow: auto;
-}
-
-#row_1 {
-  overflow: auto;
-}
-
-.column:first-of-type {
-  width: 66%;
   float: left;
 }
 
-.column:nth-of-type(3) {
-  width: 33%;
-  float: right;
+.row {
+  margin-bottom: 2%;
+  clear: both;
+}
+
+#column1 {
+  width: 66%;
+  float: left;
+  margin-right: 2%;
+}
+
+.column2 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.column2:last-child {
+  margin-right: 0;
 }
